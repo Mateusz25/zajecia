@@ -20,4 +20,6 @@ axes.set_yticks(plt.yticks()[0],minor=False)
 axes.set_yticks([0],minor=True)
 axes.yaxis.grid(which="minor")
 
+plt.figure()
+plt.plot(x,np.cos(x))
 plt.show()
