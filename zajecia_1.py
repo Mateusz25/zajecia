@@ -15,7 +15,7 @@ plt.legend([a,b],['sin(x)','approx {0} terms'.format(n)])
 
 plt.xlim(0,2*np.pi)
 axes=plt.gca()
-axes.set_xlim([0,2*np.pi])
+# axes.set_xlim([0,2*np.pi])
 axes.set_yticks(plt.yticks()[0],minor=False)
 axes.set_yticks([0],minor=True)
 axes.yaxis.grid(which="minor")
